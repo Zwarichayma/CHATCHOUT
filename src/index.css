@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css?family=Fira+Sans:400,500,600,700,800");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: #ffffff!important; /* Fond noir */
+  min-height: 100vh;
+  display: flex;
+  font-weight: 400;
+  font-family: "Fira Sans", sans-serif;
+  color: white; /* Texte blanc pour la lisibilité */
+}
+
+h1, h2, h3, h4, h5, h6, label, span {
+  font-weight: 500;
+  font-family: "Fira Sans", sans-serif;
+}
+
+body, html, .App, #root, .auth-wrapper {
+  width: 100%;
+  height: 100%;
+}
+
+.navbar-light {
+  background-color: #2a2a2a; /* Fond sombre pour la navbar */
+  box-shadow: 0px 14px 80px rgba(34, 35, 58, 0.2);
+}
+
+.auth-wrapper {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: left;
+}
+
+.auth-inner {
+  width: 450px;
+  margin: auto;
+  background: #ffffff; /* Fond gris foncé pour le formulaire */
+  box-shadow: 0px 14px 80px rgba(34, 35, 58, 0.2);
+  padding: 40px 55px 45px 55px;
+  border-radius: 15px;
+  transition: all 0.3s;
+  border: 1px solid #ffffff; /* Bordure gris foncé */
+}
+
+.auth-wrapper .form-control:focus {
+  border-color: #9fc7fb; /* Légère teinte bleue pour la mise au focus */
+  box-shadow: none;
+}
+
+.auth-wrapper h3 {
+  text-align: center;
+  margin: 0;
+  line-height: 1;
+  padding-bottom: 20px;
+  color: #3C97BF; /* Texte du titre en blanc */
+}
+
+.custom-control-label {
+  font-weight: 400;
+  color: #f1f1f1; /* Texte des labels en blanc */
+}
+
+.forgot-password,
+.forgot-password a {
+  text-align: right;
+  font-size: 13px;
+  padding-top: 10px;
+  color: #b3b3b3; /* Texte gris clair */
+  margin: 0;
+}
+
+.forgot-password a {
+  color: #84b9ff; /* Lien bleu pour la partie mot de passe oublié */
+}
+
+/* Styles des boutons */
+.btn-primary {
+  background-color: #ffffff; /* Gris foncé pour le bouton primaire */
+  border: 1px solid #ffffff; /* Bordure assortie */
+  color: white;
+  transition: background-color 0.3s;
+}
+
+.btn-primary:hover {
+  background-color: #ffffff; /* Gris plus clair au survol */
+  border-color: #ffffff; /* Bordure plus foncée au survol */
+}
+
+.btn-secondary {
+  background-color: #ffffff; /* Gris moyen pour le bouton secondaire */
+  border: 1px solid #ffffff;
+  color: white;
+}
+
+.btn-secondary:hover {
+  background-color: #ffffff; /* Gris plus clair au survol */
+  border-color: #ffffff;
+}
+
+/* Inputs et champs de formulaire */
+.form-control {
+  background-color: #ffffff; /* Fond gris moyen pour les champs de texte */
+  border: 1px solid #ffffff; /* Bordure légèrement plus foncée */
+  color: white; /* Texte en blanc */
+}
+
+.form-control:focus {
+  border-color: #84b9ff; /* Bordure bleu clair lors du focus */
+  box-shadow: none;
+}
+

@@ -1,0 +1,256 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:400,700");
+
+* {
+    box-sizing: border-box;
+}
+
+/* Style de base pour le body */
+body {
+    background-color: #F0F4F8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 100vh;
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+    color: #3C97BF;
+    animation: fadeIn 1.5s ease-out; /* Animation globale */
+}
+
+/* Animation de fadeIn pour le chargement de la page */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Titre principal */
+h2 {
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+    color: #277ca0;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 20px;
+}
+/* Style global pour le titre h1 */
+h1 {
+    color: #277ca0; /* Bleu principal identique à h2 */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2); /* Ombre subtile */
+    font-size: 1.8rem; /* Taille plus petite que h2 */
+    letter-spacing: 1px; /* Espacement des lettres */
+    text-transform: uppercase; /* Majuscules */
+    text-align: center; /* Centrage du texte */
+    margin-bottom: 15px; /* Même positionnement que h2 */
+  }
+  
+/* Conteneur principal */
+.chat-container {
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 450px;
+    padding: 20px;
+    position: relative;
+    overflow: hidden;
+    animation: fadeIn 1.5s ease-out;
+}
+
+/* Messages */
+.chat {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    max-height: 350px;
+    overflow-y: auto;
+}
+
+.message {
+    border-radius: 20px;
+    margin-bottom: 15px;
+    padding: 12px 18px;
+    font-size: 14px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    animation: slideIn 0.5s ease-out;
+    transition: transform 0.3s ease-in-out;
+}
+
+/* Animation des messages */
+@keyframes slideIn {
+    from {
+        transform: translateY(20px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.message.left {
+    background-color: #F0F4F8;
+    color: #2A6F97;
+    align-self: flex-start;
+}
+
+.message.right {
+    background-color: #2A6F97;
+    color: #FFFFFF;
+    align-self: flex-end;
+}
+
+/* Effet de zoom au survol des messages */
+.message:hover {
+    transform: scale(1.03);
+}
+
+/* Zone de saisie */
+.input-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+/* Animation du focus */
+.text_input {
+    width: 80%;
+    padding: 10px 15px;
+    font-size: 14px;
+    border: 1px solid #CCC;
+    border-radius: 20px;
+    background-color: #FFFFFF;
+    transition: all 0.3s ease-in-out;
+}
+
+.text_input:focus {
+    outline: none;
+    border-color: #2A6F97;
+    box-shadow: 0 0 10px rgba(60, 151, 191, 0.5);
+    transform: scale(1.02);
+}
+
+/* Bouton d'envoi avec animation de pulsation */
+.send_button {
+    background-color: #2A6F97;
+    color: white;
+    padding: 12px 15px;
+    border: none;
+    border-radius: 15%;
+    font-size: 16px;
+    margin-left: 10px;
+    transition: background-color 0.3s, transform 0.2s ease-in-out;
+    animation: pulse 1.5s infinite ease-in-out;
+}
+/* Style pour le bouton de suppression avec l'icône */
+.delete-profile-button {
+    background-color: #e74c3c; /* Couleur de fond rouge */
+    color: white;
+    font-size: 14px; /* Taille du texte plus petite */
+    padding: 5px 8px; /* Padding ajusté pour un petit bouton */
+    border: none;
+    border-radius: 50px; /* Bord arrondi */
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    display: flex;
+    align-items: center; /* Pour aligner l'icône et le texte */
+    justify-content: center; /* Centrer l'icône et le texte */
+    text-transform: uppercase;
+  }
+  
+  /* Style pour l'icône à l'intérieur du bouton */
+  .delete-profile-button i {
+    margin-right: 5px; /* Un petit espace entre l'icône et le texte */
+    font-size: 12px; /* Taille de l'icône */
+  }
+  
+  /* Effet de survol */
+  .delete-profile-button:hover {
+    background-color: #c0392b; /* Rouge plus foncé au survol */
+    transform: scale(1.05);
+  }
+  
+  /* Effet au clic */
+  .delete-profile-button:active {
+    background-color: #b03a2e;
+    transform: scale(0.98);
+  }
+  
+  /* Assurer un petit espacement entre les éléments de la navbar */
+  .navbar-nav {
+    margin-right: 20px;
+  }
+  
+/* Animation de pulsation */
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+.send_button:hover {
+    background-color: #357CA5;
+    transform: scale(1.1);
+}
+
+.send_button:disabled {
+    background-color: #D3D3D3;
+    cursor: not-allowed;
+}
+
+.send_button:active {
+    background-color: #2A637E;
+}
+
+/* Footer */
+footer {
+    background-color: #222;
+    color: #fff;
+    font-size: 14px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 10px 0;
+    animation: fadeIn 1s ease-in-out;
+}
+
+footer a {
+    color: #3C97BF;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+    .chat-container {
+        width: 90%;
+        padding: 15px;
+    }
+
+    .text_input {
+        width: 70%;
+    }
+
+    .send_button {
+        padding: 8px 12px;
+    }
+}

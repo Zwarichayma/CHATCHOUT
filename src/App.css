@@ -1,0 +1,192 @@
+/* Général */
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #1C1C1C; /* Fond noir */
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #3C97BF; /* Bleu vif pour les liens */
+  transition: color 0.3s ease-in-out;
+}
+
+/* Style for the logo in the navbar */
+.navbar-logo {
+  width: 60px; /* Increase the width of the logo */
+  height: auto; /* Maintain aspect ratio */
+  display: inline-block;
+  vertical-align: middle; /* Align the logo vertically with the text */
+}
+
+.App-link:hover {
+  color: #2A6F97; /* Bleu plus foncé au survol */
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Style pour afficher le token */
+.alert-info {
+  background-color: #F9FAFB; /* Gris très clair */
+  color: #333; /* Texte gris foncé */
+  border: 1px solid #D3D3D3;
+  padding: 15px;
+  border-radius: 8px;
+  font-size: 1rem;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.alert-info .alert-info {
+  background-color: #E0E0E0;
+  color: #555;
+  border-color: #CCC;
+  padding: 10px;
+  margin-top: 10px;
+  font-size: 0.9rem;
+  word-wrap: break-word;
+  white-space: pre-wrap;
+  border-radius: 5px;
+}
+
+/* Conteneur Token */
+.token-container {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+  background: #FFFFFF; /* Fond blanc */
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.token-container h3 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #ebeaea;
+  margin-bottom: 15px;
+}
+
+.token-container strong {
+  font-weight: bold;
+  color: #3C97BF; /* Bleu vif */
+}
+
+/* ChatBot */
+.chatbot-container {
+  background-color: #F0F4F8; /* Fond légèrement gris */
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+.chatbox {
+  background-color: #FFFFFF; /* Fond blanc */
+  border-radius: 8px;
+  padding: 10px;
+}
+
+.user-message {
+  background-color: #3C97BF; /* Bleu vif pour les messages utilisateur */
+  color: #FFFFFF;
+  border-radius: 8px;
+  padding: 10px;
+  margin: 10px 0;
+  text-align: right;
+}
+
+.bot-message {
+  background-color: #E0E0E0; /* Gris clair pour les messages bot */
+  color: #fffdfd;
+  border-radius: 8px;
+  padding: 10px;
+  margin: 10px 0;
+  text-align: left;
+}
+
+/* Zone d'Input */
+.chatbox-footer {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.chatbox-footer input {
+  flex: 1;
+  border: 1px solid #CCC;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 1rem;
+  color: #fdfdfd;
+}
+
+.chatbox-footer input:focus {
+  outline: none;
+  border-color: #3C97BF;
+}
+
+.chatbox-footer button {
+  background-color: #3C97BF; /* Bleu vif */
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  margin-left: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 1rem;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.chatbox-footer button:hover {
+  background-color: #2A6F97; /* Bleu plus foncé */
+  transform: scale(1.05);
+}
+
+/* Navbar */
+.navbar-custom {
+  background: #2A6F97 ; /* Noir avec opacité */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-nav .nav-link {
+  color: white !important;
+  transition: color 0.3s;
+}
+
+.navbar-custom .navbar-nav .nav-link:hover {
+  color: #2A6F97 !important; /* Bleu vif au survol */
+}
+
+/* Responsivité */
+@media (max-width: 768px) {
+  .chatbot-container, .token-container {
+    padding: 15px;
+  }
+}

@@ -1,0 +1,155 @@
+[
+    {
+      "trigger": "bonjour",
+      "response": "Bonjour! Comment puis-je vous aider ?"
+    },
+    {
+      "trigger": "comment ça va",
+      "response": "Je vais bien, merci de demander ! Et vous ?"
+    },
+    {
+      "trigger": "aide",
+      "response": "Que puis-je faire pour vous ?"
+    },
+    {
+      "trigger": "merci",
+      "response": "Avec plaisir !"
+    },
+    {
+      "trigger": "qui es-tu",
+      "response": "Je suis un chatbot conçu pour répondre à vos questions. Comment puis-je vous aider ?"
+    },
+    {
+      "trigger": "quel est ton nom",
+      "response": "Je n'ai pas de nom, mais vous pouvez m'appeler comme vous voulez !"
+    },
+    {
+      "trigger": "quel âge as-tu",
+      "response": "Je ne vieillis pas, je suis un programme informatique !"
+    },
+    {
+      "trigger": "comment t'appelles-tu",
+      "response": "Je n'ai pas de nom, mais vous pouvez m'en donner un si vous le souhaitez."
+    },
+    {
+      "trigger": "quelle heure est-il",
+      "response": "Je ne peux pas vérifier l'heure, mais vous pouvez vérifier sur votre appareil."
+    },
+    {
+      "trigger": "qui est le président de la France",
+      "response": "Le président actuel de la France est Emmanuel Macron."
+    },
+    {
+      "trigger": "quel temps fait-il",
+      "response": "Je ne peux pas vérifier la météo, mais vous pouvez consulter une application météo pour ça."
+    },
+    {
+      "trigger": "combien de continents y a-t-il",
+      "response": "Il y a sept continents : Afrique, Amérique, Asie, Europe, Océanie, Antarctique, et l'Amérique du Nord."
+    },
+    {
+      "trigger": "quel est le plus grand pays du monde",
+      "response": "Le plus grand pays du monde en termes de superficie est la Russie."
+    },
+    {
+      "trigger": "quel est le plus grand océan",
+      "response": "Le plus grand océan du monde est l'océan Pacifique."
+    },
+    {
+      "trigger": "qui a inventé l'ordinateur",
+      "response": "L'invention de l'ordinateur est attribuée à plusieurs personnes, mais Charles Babbage est souvent considéré comme le père de l'ordinateur."
+    },
+    {
+      "trigger": "qu'est-ce qu'une intelligence artificielle",
+      "response": "L'intelligence artificielle (IA) est un domaine de l'informatique qui permet de créer des machines capables d'effectuer des tâches nécessitant normalement l'intelligence humaine, comme la reconnaissance vocale ou la prise de décision."
+    },
+    {
+      "trigger": "combien de langues parlent les humains",
+      "response": "Il existe plus de 7 000 langues parlées dans le monde, bien que beaucoup d'entre elles soient en danger d'extinction."
+    },
+    {
+      "trigger": "quel est le plus grand animal terrestre",
+      "response": "Le plus grand animal terrestre est l'éléphant d'Afrique."
+    },
+    {
+      "trigger": "quel est le plus rapide animal du monde",
+      "response": "Le guépard est l'animal terrestre le plus rapide, capable de courir à plus de 100 km/h sur de courtes distances."
+    },
+    {
+      "trigger": "quels sont les bienfaits du sport",
+      "response": "Le sport présente de nombreux bienfaits pour la santé, tels que l'amélioration de la forme physique, la réduction du stress, et l'augmentation de l'espérance de vie."
+    },
+    {
+      "trigger": "qu'est-ce qu'un chatbot",
+      "response": "Un chatbot est un programme informatique conçu pour simuler une conversation avec des utilisateurs humains, soit par texte, soit par la voix."
+    },
+    {
+        "trigger": "qu'est-ce que MongoDB",
+        "response": "MongoDB est un système de gestion de bases de données NoSQL. Il stocke les données dans des documents de type BSON (Binary JSON) et est particulièrement adapté pour gérer de grandes quantités de données non structurées ou semi-structurées."
+      },
+      {
+        "trigger": "qu'est-ce que le Big Data",
+        "response": "Le Big Data désigne des ensembles de données extrêmement volumineux et complexes qui nécessitent des outils et technologies spécialisés pour être traités, analysés et extraits de manière efficace. Les technologies du Big Data incluent Hadoop, Spark et NoSQL."
+      },
+      {
+        "trigger": "qu'est-ce que la psychologie",
+        "response": "La psychologie est la science qui étudie le comportement humain et les processus mentaux. Elle examine les émotions, les pensées, les actions et les interactions des individus dans divers contextes."
+      },
+      {
+        "trigger": "quels sont les bienfaits des fruits",
+        "response": "Les fruits sont une excellente source de vitamines, minéraux et fibres. Ils aident à maintenir une bonne santé cardiovasculaire, à améliorer la digestion et à renforcer le système immunitaire."
+      },
+      {
+        "trigger": "qu'est-ce qu'un aliment équilibré",
+        "response": "Un aliment équilibré est un repas qui contient une proportion adéquate de protéines, de glucides, de graisses, ainsi que des vitamines et des minéraux nécessaires à la santé. Il permet de maintenir un poids corporel sain et une énergie suffisante tout au long de la journée."
+      },
+      {
+        "trigger": "quel est l'impact du stress sur la santé",
+        "response": "Le stress chronique peut avoir de nombreux effets négatifs sur la santé, tels que l'hypertension, les troubles du sommeil, une diminution de la fonction immunitaire et un risque accru de maladies cardiaques."
+      },
+      {
+        "trigger": "quels sont les aliments à privilégier pour une bonne santé",
+        "response": "Pour une bonne santé, il est conseillé de privilégier les fruits, légumes, grains entiers, protéines maigres comme le poulet et le poisson, ainsi que des graisses saines comme celles contenues dans les noix et l'avocat."
+      },
+      {
+        "trigger": "qu'est-ce que l'IA (Intelligence Artificielle)",
+        "response": "L'Intelligence Artificielle (IA) fait référence à la simulation de l'intelligence humaine par des machines. Cela inclut des technologies comme le machine learning, l'apprentissage profond et la vision par ordinateur."
+      },
+      {
+        "trigger": "wenek",
+        "response": "hani a sahbi winek enty"
+      },
+      {
+        "trigger": "jawek bahy?",
+        "response": "fesfes hh "
+      },
+      {
+        "trigger": "Hy bahy",
+        "response": "n3awnek f haja "
+      },
+      {
+        "trigger": "cc",
+        "response": "asslama "
+      },
+      {
+        "trigger": "hobi",
+        "response": "A hobi"
+      },
+      {
+        "trigger": "isima",
+        "response": "facna el mezyana hh"
+      },
+      {
+        "trigger": "mahdia",
+        "response": "lhob"
+      },
+      {
+        "trigger": "bigdata",
+        "response": "Le Big Data désigne des ensembles de données extrêmement volumineux et complexes qui nécessitent des outils et technologies spécialisés pour être traités, analysés et extraits de manière efficace. Les technologies du Big Data incluent Hadoop, Spark et NoSQL."
+      },
+      {
+        "trigger": "mongodb",
+        "response": "MongoDB est un système de gestion de bases de données NoSQL. Il stocke les données dans des documents de type BSON (Binary JSON) et est particulièrement adapté pour gérer de grandes quantités de données non structurées ou semi-structurées."
+      }
+  ]
+  
